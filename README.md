@@ -5,7 +5,7 @@ With jenkins you can easily build, automate and maintain delivery and developmen
 This image makes it easier to let jenkins build and run sibling containers.
 
 ## Features:
-    You can include docker and docker-compose commands in your pipelines and access sibling containers
+You can include docker and docker-compose commands in your pipelines and access sibling containers
 ## Depends on:
     -docker
     -docker-compose
