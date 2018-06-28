@@ -11,6 +11,10 @@ This image makes it easier to let jenkins build and run sibling containers.
     -docker-compose
 
 ## How do I build it?
+Create a jenkins_home volume if you don't already have one:
+
+    $ sudo docker volume create jenkins_home
+
 Inside this directory:
 
     $ docker-compose build
